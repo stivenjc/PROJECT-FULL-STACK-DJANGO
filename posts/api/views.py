@@ -7,8 +7,9 @@ from posts.models import Posts
 
 
 class PostsViewSet(ModelViewSet):
-    permission_classes = [IsAuthenticated]
-    queryset = Posts.objects.all().order_by('-created')
+    #permission_classes = [IsAuthenticated]
+    def get_queryset(self):
+        return Posts.objects.all().order_by('-created')
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['created_by']
     serializer_class = PostsSerializers

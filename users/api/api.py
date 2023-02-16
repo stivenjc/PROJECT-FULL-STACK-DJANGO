@@ -14,7 +14,7 @@ from users.models import User
 
 class UserApipViewSet(ModelViewSet):
     model = User
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
     filter_backends = [SearchFilter]
     search_fields = ['username']
     serializer_class = UserSerializer
