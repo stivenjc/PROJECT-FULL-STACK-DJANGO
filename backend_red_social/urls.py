@@ -9,6 +9,7 @@ from rest_framework_simplejwt.views import (
 
 from backend_red_social import settings
 from comentarios.api.routers import router_coment
+from friends.api.url import router_friend
 from likes.api.routers import router_likes
 from posts.api.routers import router_posts
 from users.api.api import LogoutView, RegisterAPI
@@ -38,4 +39,5 @@ urlpatterns = [
                   path('', include(router_coment.urls)),
                   path('', include(router_posts.urls)),
                   path('', include(router_likes.urls)),
+                  path('', include(router_friend.urls)),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -42,6 +42,7 @@ LOCAL_APPS = [
     'posts.apps.PostsConfig',
     'likes.apps.LikesConfig',
     'comentarios.apps.ComentariosConfig',
+    'friends.apps.FriendsConfig',
 ]
 
 THIRD_PARTY_APPS = [
