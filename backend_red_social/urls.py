@@ -39,5 +39,5 @@ urlpatterns = [
                   path('', include(router_coment.urls)),
                   path('', include(router_posts.urls)),
                   path('', include(router_likes.urls)),
-                  path('', include(router_friend.urls)),
+                  path('', include((router_friend.urls, 'friends'), namespace='friends')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
