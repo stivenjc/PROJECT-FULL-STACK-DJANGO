@@ -12,7 +12,7 @@ from comentarios.api.routers import router_coment
 from friends.api.url import router_friend
 from likes.api.routers import router_likes
 from posts.api.routers import router_posts
-from users.api.api import LogoutView, RegisterAPI
+from users.api.api import LogoutView, RegisterAPI, CustomTokenObtainPairView
 from users.api.router import router_user
 
 schema_view = get_schema_view(
@@ -32,7 +32,7 @@ urlpatterns = [
                   path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
                   path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
                   path('register/users/', RegisterAPI.as_view(), name='register'),
-                  path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+                  path('login/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
                   path('logout/', LogoutView.as_view(), name='auth_logout'),
                   path('users/', include('users.urls')),
                   path('', include(router_user.urls)),

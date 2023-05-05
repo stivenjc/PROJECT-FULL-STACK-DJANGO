@@ -7,7 +7,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import RefreshToken
-
+from rest_framework_simplejwt.views import TokenObtainPairView
 from users.api.serializers import UserSerializer, ChangePasswordSerializer, RegisterSerializer
 from users.models import User
 
@@ -28,6 +28,26 @@ class UserApipViewSet(ModelViewSet):
         request.data['password'] = make_password(request.data['password'])
         return super().create(request, *args, **kwargs)
 
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.user
+        token_data = serializer.validated_data
+
+        response = super().post(request, *args, **kwargs)
+        token = token_data.get('access')
+        response.data = {
+            'token': token,
+            'user': {
+                'id': user.id,
+                'username': user.username,
+                'email': user.email,
+                'inicio': user.date_joined,
+            }
+        }
+        return response
 
 class RegisterAPI(generics.CreateAPIView):
     serializer_class = RegisterSerializer
