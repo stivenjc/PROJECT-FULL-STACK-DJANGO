@@ -1,0 +1,702 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$eE2KGCaaIHxRdH6k3s1Exg$b9IHjpuyFkweteWKZA7CNa6v1FW/2UFmfdouTo5ohOk=",
+      "last_login": "2022-11-15T22:05:18Z",
+      "is_superuser": true,
+      "username": "username",
+      "first_name": "carvo",
+      "last_name": "jimenez",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-15T21:54:32Z",
+      "email": "email@gmail.com",
+      "foto": "futbol.jpg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$PfUxf2BpxGzrif05OI3voo$w1lcXg5RZ7Nfd//c3Fjl4JlVbe+hdFVsnkqT+nC6rLg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "calvoo",
+      "first_name": "nicole",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-18T15:34:13Z",
+      "email": "calvo@gmail.com",
+      "foto": "WhatsApp_Image_2022-10-25_at_11.00.18_AM_69UieeF.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "123456789",
+      "last_login": "2022-11-18T15:38:25Z",
+      "is_superuser": true,
+      "username": "devbjimenez20",
+      "first_name": "cristian",
+      "last_name": "jimenez cardenas",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-18T15:37:31Z",
+      "email": "jimenezcardenasadd@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$mSccXyEIcJ55GAog2UhZ2J$qqvRYJr7WCbnxep1QLNugQ1LOKFP/XUrcoRk3AH4iaQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "adrian2",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-18T15:43:34Z",
+      "email": "test@gmail.com",
+      "foto": "WhatsApp_Image_2022-10-25_at_11.00.18_AM_OTe77tC.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "asdasdasd123213",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sdf",
+      "first_name": "sdf",
+      "last_name": "sdf",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-21T12:59:33Z",
+      "email": "adisjimenezasdfas@misena.edu.co",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$UWGqRFn86lPoghAgc0ec6H$uxgPf0Ali8Uwc8jdr3EoK9IZ9Bzl2wbQKQO6ZCTXT7w=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "testImage",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-21T13:02:47.556Z",
+      "email": "image@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$cy8CSCEItdMDTC8mORfSsz$iHIKJwTQSHZbcZvfNRW0CBAZ7xJD7fS9vYUxPb1D/8A=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "adrian126",
+      "first_name": "adrian",
+      "last_name": "jimenez",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-22T01:44:12.086Z",
+      "email": "jimenezcardenasad@gmail.com",
+      "foto": "20201225_131332_1.jpg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$GLjas3T0ArVKOAECzUApp4$IuYUYWzKaD5aROrZxt3ZwEtfLDpZ/VL4yoY1s34qHIY=",
+      "last_login": "2022-11-22T15:08:32Z",
+      "is_superuser": true,
+      "username": "adrianwc",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-22T02:18:09Z",
+      "email": "jimenezcardenasadw@gmail.com",
+      "foto": "users/vallenato.png",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$482zfwy8E1UZWDcyUtAxXg$9CAHZLFbBhNGZRI9PIJws0ZZCLYlsni6AhH3RSJTySg=",
+      "last_login": "2022-12-02T19:29:07.731Z",
+      "is_superuser": true,
+      "username": "stiven",
+      "first_name": "Adrian",
+      "last_name": "jimenez cardenas",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-22T15:31:55Z",
+      "email": "jimenez@gmail.com",
+      "foto": "users/Captura_desde_2022-12-01_16-03-23.png",
+      "fondo": "users_fondo/libre.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$OlrZZYJV4QvcC9c8FSNnI0$+iLphfcVP+EpVsgFhulX1ikzudEfqYTmnCt8h7And64=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "andres",
+      "first_name": "prueba",
+      "last_name": "sdf",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-23T15:58:08.790Z",
+      "email": "nuevoo@gmail.com",
+      "foto": "users/images_1_KapJVZO.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$gVnQg1PENNvUJmOCgsXwc9$B63N61bh3nX+T9cTyXVh+WldW/APILLukTIgVTWkbTw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "string",
+      "first_name": "string",
+      "last_name": "string",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T15:45:20.798Z",
+      "email": "user@example.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$7QEvZCTVP3LTWkxCu44elL$qVZjPoujG2Bm6V/F7OmdXWsxVAcWwNKw4ON5Sv1c8HY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairda",
+      "first_name": "adriannn",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T15:48:51.655Z",
+      "email": "tessdfsdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$ZxTJTeFUcMDc7tdcMbzCOE$6RoJyzUc2NjwmP1AAKcnvvjyC9t2WoSHUTZYcctWXzY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdaddd",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T15:49:52.967Z",
+      "email": "tessdfdssdssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$RM5W7orneF1l30Aw2egcLN$oYiHJ62NLqjZqhG1+N5YA9qhR7sLZFbiEYkpyZ1lELU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdaddds",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T15:51:39.004Z",
+      "email": "tessdfdssdsssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$mdZ1y1jcEjbp3VDh0ziLC6$1ZwrDY06jkPPwFgauE+eHepfLx7ZMwssM/EOau6flUw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddss",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T15:53:09.891Z",
+      "email": "tessdfdssdasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$0ElKllKKsJdOX5B7R7Ffcx$dS6eRuVm8qjx5lTqA1PhMJXUkzgjp7ckkg4S/ShKBLM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsss",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:20:17.663Z",
+      "email": "tessdfdssdsasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Mp6KZaS1Rx6RHeGhejCxJL$n3xLFIUuQOx1OCsvAGHLErAvQKdKemeyPHkcvFF7sQg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsssx",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:21:45.096Z",
+      "email": "tessdfdssxdsasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$enT1Geb262WC5w5pz1nnwF$4D+HdoIPuNASIM3NQsZNsShDC0k+kgjuqdAFik8IVsE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsssxz",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:22:48.365Z",
+      "email": "tessdfdzssxdsasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$eYQQP6LQxOHCwlqXXUbyD0$S1/RP2xdroZlHJI3OS8Id57jbYAmb1JavLg5K4fzYCY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsxz",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:23:57.810Z",
+      "email": "tesdfdzssxdsasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$6f0kKgDUvWrPawX1bsG280$4lx3f8KGtnH9qdHzIrxVBeOPgjoe4K4BeRvEYxJOUmA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsx",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:26:46.847Z",
+      "email": "tesdfdzssasssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 22,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$6W2bq6Qxh7h3eiyL4TC2bV$Vxn/C0Y4NsreluOMIrbUuwrzf/pXVQ4OjZ/H+MscWWs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsxc",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:27:46.242Z",
+      "email": "tesdfdzssdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 23,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$pCls43HjpD0a21bWNCDMkV$LI2TIT1V+Fhmn1bGtvyAWD8+7SsTF1fhdXFZLlWZ0g8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdadddsxcz",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:32:13.404Z",
+      "email": "tesdfdzssdf@gmail.comz",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 24,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$X4z84WDdJUMZUZK8FE7gwd$ALqAaU0JFWWg4mrzPBNTHT5quo3BqkVQEHF2qR5QPRs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "naird",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:34:16.916Z",
+      "email": "tessdf@gmail.com",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 25,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$FvyJz67a8kT7zXQ2jEKL4T$f8fVZIs4yD8vvJLZrZs4s9rIzQf+LPJPXA6/7bdEUEQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdsdsd",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:38:30.390Z",
+      "email": "tessdf@gmail.comsdsd",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 26,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$NCbqq6aMXBKE9zxzIlHe1E$2PpkkmBPabXyrxDaahGbRckbwTUWv3ao/+A3CXII9rc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdsdsdas",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T19:40:00.492Z",
+      "email": "tessdf@gmail.comsdsda",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 27,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$taxHdf47Kxv0vnNAq4MkeK$Oxh9iPYMCPEeAUiCpyoBWSbl73DCJv8QJxOjDZdNWME=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdsdsdasscx",
+      "first_name": "adriannn",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T20:09:19.867Z",
+      "email": "tessdf@gmail.comsdsdass",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 28,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$3tvl38daoETqqAsu9j8ruZ$vwkec7G8OL7P4Z5vBA+UzHQlqwY/pyrQB5xD0AZ5bmM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nairdsdsdasscxjsd",
+      "first_name": "adriannn",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T20:26:24.322Z",
+      "email": "tessdf@gmail.comsdsdasszz",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 29,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$bV64cIs4iWvFNyFiVY4VFj$uQkhqDyL4e8QV+0DwTfszyVkm6dLVnNcC2k/xHVnYQ0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "aasdasddd",
+      "first_name": "adrianadrian",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T20:28:21.179Z",
+      "email": "tessdf@gmail.comsdsdasszzsdd",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 30,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$8FaTvOcjBvwz2FhiOuDGgf$Sjth2rxlmrHGLGQDqNn0g+bunPfKuEkWwFSVmjc0YWo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "aasdasdddsd",
+      "first_name": "adrianadrian",
+      "last_name": "jimenez cardenasasa",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T21:51:44.567Z",
+      "email": "tessdf@gmail.comsdsdasszzsddssdd",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 31,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$k6jl0SsmE2Dh3Beb0zoP9s$WCJ+PO5LYwahs48Af+h4iBxcgTy7EiqvIAKDFLx5WJc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "aasdasdddsdd",
+      "first_name": "adrianadrian",
+      "last_name": "jimenez cardenasasadd",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T21:58:35.238Z",
+      "email": "tessdf@gmail.comsdsdasszzsddssddd",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 32,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$qjWEUBuWCeS1LB9Uy0dxcO$twdwkDrNq6CFSK4+JnOoo37nuZL8GQz/T25fWVCNXYI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "devbjimenez20d",
+      "first_name": "cristians",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T22:17:55.145Z",
+      "email": "jimenezcardenasad@gmail.coms",
+      "foto": "images/perfil.jpeg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 33,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$TfIbyumGURGm6ijVEAqATk$vwFtt0OWk5EQfCwAwhzk1DLu7uykXFnzhDUwzoftUqI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "andress",
+      "first_name": "nicole",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-03T01:33:23Z",
+      "email": "andress@gmail.com",
+      "foto": "users/Captura_desde_2022-12-02_21-23-54_EWN61jQ.png",
+      "fondo": "users_fondo/542249.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 34,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$jj1yxl2mCkFEHsxohwvnMb$hb6Nil8HB3hL65IIBMZv8KIYY7JHc0R9Lh809vPJ6a8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nuevouser",
+      "first_name": "prueba",
+      "last_name": "jimenez cardenas",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-06T13:40:39.679Z",
+      "email": "nuevouser@gmail.com",
+      "foto": "users/WhatsApp_Image_2022-10-25_at_11.00.18_AM.jpeg",
+      "fondo": "users_fondo/images_1.jpeg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 35,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$8Y6FUpEMnKy7AM2hgbfIBy$02ZFs+6LhNLBYhvpzqaaijReJML7ZwGgBmh0XL1arzc=",
+      "last_login": "2023-01-17T14:53:24.795Z",
+      "is_superuser": true,
+      "username": "cardenas",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-01-17T14:49:54.490Z",
+      "email": "cardenas@gmail.com",
+      "foto": "users/ken-kaneki-tokyo-ghoul_1920x1362_xtrafondos.com.jpg",
+      "fondo": "users_fondo/the-jokers-smile_3840x2160_xtrafondos.com.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 36,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$evLsoy8Xoe6xlPt66aDcQn$po58x2/HVrjVYa3du+46JpsV2zUKcE7DRqZbao1JUEw=",
+      "last_login": "2023-05-05T13:57:11.935Z",
+      "is_superuser": true,
+      "username": "adrian",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-02-13T20:25:03.036Z",
+      "email": "adrianadrian@gmail.com",
+      "foto": "users/IMG_4895.jpg",
+      "fondo": "images/default.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
