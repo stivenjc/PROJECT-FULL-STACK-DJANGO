@@ -12,6 +12,8 @@ class Friends(TimeStampedModel):
     transmitter = models.ForeignKey(User, on_delete=models.CASCADE, related_name='transmitted')
     receiver = models.ForeignKey(User, on_delete=models.CASCADE, related_name='received')
 
+    class Meta:
+        unique_together = ('transmitter', 'receiver')
 
     def __str__(self):
         return f'transmitte: {self.transmitter.email} -------- received: {self.receiver.email}---friend: {self.friend}'

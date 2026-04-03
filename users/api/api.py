@@ -14,7 +14,7 @@ from users.models import User
 
 class UserApipViewSet(ModelViewSet):
     model = User
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     filter_backends = [SearchFilter]
     search_fields = ['username']
     serializer_class = UserSerializer
@@ -38,13 +38,16 @@ class CustomTokenObtainPairView(TokenObtainPairView):
 
         response = super().post(request, *args, **kwargs)
         token = token_data.get('access')
+        refresh = token_data.get('refresh')
         response.data = {
             'token': token,
+            'refresh': refresh,
             'user': {
                 'id': user.id,
                 'username': user.username,
                 'email': user.email,
                 'inicio': user.date_joined,
+                'foto': request.build_absolute_uri(user.foto.url) if user.foto else None,
             }
         }
         return response

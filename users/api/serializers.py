@@ -4,6 +4,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.serializers import ModelSerializer
 from rest_framework.validators import UniqueValidator
 
+from friends.models import Friends
 from users.models import User
 
 
@@ -15,9 +16,24 @@ class ChangePasswordSerializer(serializers.Serializer):
 
 
 class UserSerializer(ModelSerializer):
+    is_friend = serializers.SerializerMethodField()
     class Meta:
         model = User
-        fields = ['id', 'username', 'email', 'first_name', 'last_name', 'foto', 'fondo', 'is_active', 'is_staff']
+        fields = ['id', 'username', 'email', 'first_name', 'last_name', 'foto', 'fondo', 'is_active', 'is_staff',
+                  'private', 'is_friend']
+
+    def get_is_friend(self, obj):
+        me = self.context['request'].user
+        user = obj
+
+        return (
+                Friends.objects.filter(
+                    transmitter=user, receiver=me,
+                    friend=True).exists() or
+                Friends.objects.filter(
+                    transmitter=me, receiver=user,
+                    friend=True).exists()
+        )
 
 
 class PersonPagination(PageNumberPagination):

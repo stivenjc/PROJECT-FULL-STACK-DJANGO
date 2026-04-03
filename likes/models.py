@@ -12,6 +12,7 @@ class Likes(models.Model):
 
     class Meta:
         db_table = 'LIKES'
+        unique_together = ('post', 'user')
 
     def __str__(self):
         return str(self.post)

@@ -7,7 +7,7 @@ from comentarios.models import Comment
 
 
 class ComentVieeSet(ModelViewSet):
-    #permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     queryset = Comment.objects.all()
     serializer_class = ComentSerializers
     filter_backends = [DjangoFilterBackend]
