@@ -20,7 +20,7 @@ class UserSerializer(ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'username', 'email', 'first_name', 'last_name', 'foto', 'fondo', 'is_active', 'is_staff',
-                  'private', 'is_friend']
+                  'private', 'is_friend', 'bio']
 
     def get_is_friend(self, obj):
         me = self.context['request'].user

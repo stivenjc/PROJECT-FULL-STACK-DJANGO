@@ -9,6 +9,7 @@ class User(AbstractUser):
     foto = models.ImageField(null=True, default='images/perfil.jpeg', upload_to='users')
     fondo = models.ImageField(null=True, default='images/default.jpg', upload_to='users_fondo')
     private = models.BooleanField(default=False)
+    bio = models.TextField(blank=True, null=True)
 
     class Meta:
         db_table = 'USER'

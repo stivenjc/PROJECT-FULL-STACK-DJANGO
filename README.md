@@ -1,2 +1,5 @@
-# PROJECT-FULL-STACK-DJANGO
-my projecto de una red social utilizando django en la parte del backend.
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
