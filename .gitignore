@@ -1,0 +1,31 @@
+# Entorno Virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Base de Datos (SQLite)
+db.sqlite3
+
+# Archivos de medios y estáticos (Opcional, depende de si quieres subirlos)
+media/
+static/
+staticfiles/
+
+# Docker
+.dockerignore
+
+# IDEs
+.idea/
+.vscode/
+
+# Varios
+.env
+.DS_Store
