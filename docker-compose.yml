@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: django_app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=django-insecure-5k$4ws=qvc-hq%1e6k62zs3qecghjuwx15d#joz_ap^=ah*b1n
+    stdin_open: true
+    tty: true
