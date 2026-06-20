@@ -29,5 +29,8 @@ COPY . /app/
 # Exponer el puerto en el que corre Django
 EXPOSE 8000
 
-# Comando para ejecutar la aplicación
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# Recopilar archivos estáticos para producción
+RUN python manage.py collectstatic --noinput
+
+# Comando para ejecutar la aplicación con Gunicorn en producción
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend_red_social.wsgi:application"]
