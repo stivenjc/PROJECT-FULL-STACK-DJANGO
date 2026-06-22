@@ -15,7 +15,7 @@ __pycache__/
 db.sqlite3
 
 # Archivos de medios y estáticos (Opcional, depende de si quieres subirlos)
-media/
+
 static/
 staticfiles/
 
