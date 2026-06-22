@@ -1,6 +1,6 @@
-from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
+from django.views.static import serve
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework_simplejwt.views import (
@@ -40,4 +40,10 @@ urlpatterns = [
                   path('', include(router_posts.urls)),
                   path('', include(router_likes.urls)),
                   path('', include((router_friend.urls, 'friends'), namespace='friends')),
-              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+              ]
+
+# Servir archivos media en desarrollo y producción
+urlpatterns += [
+    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+]
+
